@@ -1,0 +1,13 @@
+apply from: '../base.gradle'
+
+android {
+    resourcePrefix 'app_video_'
+    if (!isRelease) {
+        applicationId "com.voyah.cockpit.app_video"
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+}
